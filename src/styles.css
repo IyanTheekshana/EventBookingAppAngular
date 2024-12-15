@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 50%;
+      }
+  }
+
+
+.bg-color{
+    background-color: rgb(0, 140, 255) !important;
+}
+
+.btn{
+    background-color:  rgb(0, 81, 255) !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+p{
+    font-size: 0.8rem;
+}
+
+.card-body{
+    background-color: #ffffffee;
+    color: black;
+}
+
+.book-div{
+    padding: 80px 0;
+}
+
+.card-img-top{
+    height: 210px;
+}
+
+.modal .modal-dialog {
+    position: absolute;
+    width: 100%;
+    right: 10px;
+    bottom: 10px;
+    margin: 0;
+}
+     .modal .modal-dialog  {
+    top: 10px;
+    right: 10px;
+}
